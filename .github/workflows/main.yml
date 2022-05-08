@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: cfsec
-        uses: TestSarif@main
+        uses: syedhabeebuddin/TestSarif@main
         with:
           sarif_file: cfsec.sarif         
 
