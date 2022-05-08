@@ -16,10 +16,10 @@ jobs:
       - name: cfsec
         uses: syedhabeebuddin/TestSarif@main
         with:
-          sarif_file: cfsec.sarif         
+          sarif_file: 87677786-c120-4f5d-85ed-cc5ea0af6f69.sarif         
 
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v1
         with:
           # Path to SARIF file relative to the root of the repository
-          sarif_file: cfsec.sarif    
+          sarif_file: 87677786-c120-4f5d-85ed-cc5ea0af6f69.sarif    
