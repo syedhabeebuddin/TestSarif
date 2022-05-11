@@ -4,8 +4,8 @@ name: "Upload SARIF"
 # The scheduled workflow runs every Thursday at 15:45 UTC.
 on:
   push:
-  schedule:
-    - cron: '45 15 * * 4'
+    branches:
+      - main
 
 jobs:
   build:
