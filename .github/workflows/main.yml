@@ -24,7 +24,7 @@ jobs:
         uses: github/codeql-action/upload-sarif@v2
         with:
           # Path to SARIF file relative to the root of the repository
-          sarif_file: 87677786-c120-4f5d-85ed-cc5ea0af6f69.sarif
+          sarif_file: Sample.sarif
           # Optional category for the results
           # Used to differentiate multiple results for one commit
           category: my-analysis-tool
